@@ -28,6 +28,29 @@
 .menu{
     display: none;
 }
+.sec{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+}
+.f h1{
+    font-size: 50px;
+}
+.f p{
+    font-size: 20px;
+    color: #8F95A5;
+    font-weight: 100;
+}
+.f button{
+    width: 220px;
+    padding: 20px;
+    background-color: #263238;
+    color: white;
+    font-size: 20px;
+    border: 0;
+    border-radius: 3px;
+}
 
 
 
@@ -55,5 +78,19 @@
         display: flex;
         align-items: center;
         padding-top: 50px;
+    }
+    .sec{
+        flex-direction: column-reverse;
+        gap: 10px;
+        text-align: center;
+    }
+    .f h1{
+        font-size: 50px;
+    }
+    .img{
+        width: 390px;
+    }
+    .f button{
+        width: 350px;
     }
 }
