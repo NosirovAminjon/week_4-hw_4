@@ -133,6 +133,22 @@
     margin-top: -400px;
     margin-left: -40px;
 }
+.a{
+    color: #8F95A5;
+}
+.fl{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    text-align: center;
+}
+.as{
+    display: flex;
+    align-items: center;
+    padding-top: 200px;
+    justify-content: center;
+    gap: 200px;
+}
 
 
 
@@ -213,5 +229,14 @@
     }
     .ll1{
         margin-left: -30px;
+    }
+    .as{
+        flex-direction: column-reverse;
+        text-align: center;
+        gap: 0;
+        padding: 20px;
+    }
+    .img1{
+        width: 380px;
     }
 }
