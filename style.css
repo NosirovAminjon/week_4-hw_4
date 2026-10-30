@@ -1,15 +1,17 @@
-*{
+* {
     margin: 0;
     padding: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.p{
+
+.p {
     display: flex;
     align-items: center;
     gap: 30px;
     font-size: 20px;
 }
-.b button{
+
+.b button {
     width: 150px;
     padding: 10px;
     font-size: 20px;
@@ -17,7 +19,8 @@
     border: 2px solid black;
     border-radius: 3px;
 }
-.hdr{
+
+.hdr {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,24 +28,29 @@
     margin: 0 auto;
     padding: 20px;
 }
-.menu{
+
+.menu {
     display: none;
 }
-.sec{
+
+.sec {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 190px;
 }
-.f h1{
+
+.f h1 {
     font-size: 50px;
 }
-.f p{
+
+.f p {
     font-size: 20px;
     color: #8F95A5;
     font-weight: 100;
 }
-.f button{
+
+.f button {
     width: 220px;
     padding: 20px;
     background-color: #263238;
@@ -51,22 +59,26 @@
     border: 0;
     border-radius: 3px;
 }
-.k{
+
+.k {
     text-align: center;
     font-size: 50px;
     padding-top: 50px;
 }
-.o2{
+
+.o2 {
     background-color: #F5F5F5;
     width: 400px;
     border-radius: 10px;
     padding: 10px;
 }
-.o p{
+
+.o p {
     color: #8F95A5;
     font-weight: 100;
 }
-.btn{
+
+.btn {
     background-color: #263238;
     color: white;
     width: 150px;
@@ -74,13 +86,16 @@
     border: 0;
     border-radius: 3px;
 }
-.l{
+
+.l {
     padding-left: 30px;
 }
-.ll{
+
+.ll {
     padding-left: 70px;
 }
-.ok{
+
+.ok {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -88,13 +103,15 @@
     width: 790px;
     border-radius: 10px;
 }
-.sec1{
+
+.sec1 {
     display: flex;
     gap: 20px;
     max-width: 1200px;
     margin: 0 auto;
 }
-.oo{
+
+.oo {
     display: flex;
     align-items: center;
     gap: 20px;
@@ -102,89 +119,131 @@
     padding: 10px;
 
 }
-.o{
+
+.o {
     margin-top: -100px;
     padding: 20px;
 }
-.o1{
+
+.o1 {
     background-color: #F5F5F5;
     width: 350px;
     padding: 20px;
     border-radius: 10px;
     height: 440px;
 }
-.o1 p{
+
+.o1 p {
     color: #8F95A5;
 }
-.ok{
+
+.ok {
     margin-left: 620px;
     padding: 20px;
     margin-top: -180px;
 
 }
-.o3{
+
+.o3 {
     background-color: #F5F5F5;
     height: 900px;
     width: 500px;
     margin-top: 220px;
     border-radius: 10px;
 }
-.ook{
+
+.ook {
     margin-top: -400px;
     margin-left: -40px;
 }
-.a{
+
+.a {
     color: #8F95A5;
 }
-.fl{
+
+.fl {
     display: flex;
     align-items: center;
     gap: 100px;
     text-align: center;
 }
-.as{
+
+.as {
     display: flex;
     align-items: center;
     padding-top: 200px;
     justify-content: center;
     gap: 200px;
 }
-.dd{
+
+.dd {
     font-size: 50px;
     text-align: center;
     padding-top: 50px;
     padding-bottom: 50px;
 }
-.pop{
+
+.pop {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 100px;
 }
-.ka{
+
+.ka {
     background-color: #F5F5F5;
     width: 200px;
     padding: 10px;
     border-radius: 5px;
     color: #8F95A5;
 }
-span{
+
+span {
     color: black;
     font-weight: 200;
 }
-.sd p{
+
+.sd p {
     color: #8F95A5;
 }
-.po{
+
+.po {
     font-size: 50px;
 }
-.ka1{
+
+.ka1 {
     background-color: #F5F5F5;
     width: 200px;
     padding: 10px;
     border-radius: 5px;
     color: #8F95A5;
 }
+.oke{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+    gap: 250px;
+    border-bottom: 1px solid #C4C4C4;
+    margin-bottom: 50px;
+}
+.inp{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 20px;
+    width: 250px;
+}
+.lk{
+    width: 150px;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #263238;
+    color: white;
+    border: 0;
+}
+.kj{
+    color: #8F95A5;
+}
 
 
 
@@ -195,98 +254,135 @@ span{
 
 
 
-@media (max-width: 500px){
-    .p{
+@media (max-width: 500px) {
+    .p {
         display: none;
     }
-    .b{
+
+    .b {
         display: none;
     }
-    .menu{
+
+    .menu {
         display: flex;
     }
-    .hdr{
+
+    .hdr {
         display: flex;
         align-items: center;
         padding-top: 50px;
     }
-    .sec{
+
+    .sec {
         flex-direction: column-reverse;
         gap: 10px;
         text-align: center;
     }
-    .f h1{
+
+    .f h1 {
         font-size: 50px;
     }
-    .img{
+
+    .img {
         width: 390px;
     }
-    .f button{
+
+    .f button {
         width: 350px;
     }
-    .sec1{
+
+    .sec1 {
         flex-direction: column;
         display: block;
         gap: 50px;
     }
-    .oo{
+
+    .oo {
         display: block;
         width: 300px;
     }
-    .ok{
+
+    .ok {
         flex-direction: column-reverse;
         width: 330px;
         margin-left: 50px;
         margin-top: 420px;
     }
-    .o2{
+
+    .o2 {
         width: 330px;
         margin-left: 10px;
         padding: 10px;
         margin-top: 220px;
     }
-    .o3{
+
+    .o3 {
         margin-top: 0px;
         width: 350px;
         margin-left: 20px;
     }
-    .o1{
+
+    .o1 {
         margin-top: 20px;
         width: 310px;
         margin-left: 10px;
     }
-    .ol{
+
+    .ol {
         width: 300px;
         margin-left: 20px;
     }
-    .ll{
+
+    .ll {
         padding-left: 0;
     }
-    .ll1{
+
+    .ll1 {
         margin-left: -30px;
     }
-    .as{
+
+    .as {
         flex-direction: column-reverse;
         text-align: center;
         gap: 0;
         padding: 20px;
     }
-    .img1{
+
+    .img1 {
         width: 380px;
     }
-    .fl{
+
+    .fl {
         display: block;
         gap: 50px;
     }
-    .pop{
+
+    .pop {
         flex-direction: column;
         text-align: center;
     }
-    .ka{
+
+    .ka {
         text-align: center;
         margin-left: 80px;
     }
-    .ka1{
+
+    .ka1 {
         margin-left: 50px;
+    }
+    .oke{
+        flex-direction: column;
+        text-align: center;
+        gap: 50px;
+    }
+    .hh{
+        width: 350px;
+    }
+    .inp{
+        margin-bottom: 20px;
+    }
+    .lk{
+        width: 300px;
+        margin-bottom: 50px;
     }
 }
