@@ -149,7 +149,42 @@
     justify-content: center;
     gap: 200px;
 }
-
+.dd{
+    font-size: 50px;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.pop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+}
+.ka{
+    background-color: #F5F5F5;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #8F95A5;
+}
+span{
+    color: black;
+    font-weight: 200;
+}
+.sd p{
+    color: #8F95A5;
+}
+.po{
+    font-size: 50px;
+}
+.ka1{
+    background-color: #F5F5F5;
+    width: 200px;
+    padding: 10px;
+    border-radius: 5px;
+    color: #8F95A5;
+}
 
 
 
@@ -238,5 +273,20 @@
     }
     .img1{
         width: 380px;
+    }
+    .fl{
+        display: block;
+        gap: 50px;
+    }
+    .pop{
+        flex-direction: column;
+        text-align: center;
+    }
+    .ka{
+        text-align: center;
+        margin-left: 80px;
+    }
+    .ka1{
+        margin-left: 50px;
     }
 }
