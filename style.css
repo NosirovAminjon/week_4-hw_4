@@ -244,6 +244,16 @@ span {
 .kj{
     color: #8F95A5;
 }
+.ftr{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 300px;
+    padding-bottom: 50px;
+}
+.ftr p{
+    color: #8F95A5;
+}
 
 
 
@@ -384,5 +394,9 @@ span {
     .lk{
         width: 300px;
         margin-bottom: 50px;
+    }
+    .ftr{
+        flex-direction: column;
+        gap: 30px;
     }
 }
